@@ -1,0 +1,293 @@
+body{
+margin:0;
+padding:0;
+}
+
+
+/*------------------------------For Mobile-------------------*/
+
+div.outer-block-mobile{
+	width:245px;
+	height:435px;
+	border:2px solid #00BFFF;
+	margin:30px auto 0px auto;
+	border-radius:30px;	
+	position:relative;
+	
+}
+
+div.speaker-mobile{
+	width:100px;
+	height:5px;
+	border:2px solid #00BFFF;
+	border-radius:20px;
+	background-color:#00BFFF;	
+	margin:0 auto;
+    position:relative;
+}
+
+div.speaker-mobile.upper{	
+    top:3vh;
+	top:15px;	
+}
+
+div.speaker-mobile.lower{
+	bottom:7.5vh;	
+	bottom:35px;
+}  
+
+div.inner-block-mobile{
+    width:220px;
+	height:355px;
+	border:2px solid #00BFFF;
+    margin: 30px auto 50px auto;
+    background-image:url("allo.gif");
+	/*clear:both; */
+	overflow-y:auto;
+	overflow-x:hidden;
+}	
+
+.inner-block-mobile::-webkit-scrollbar { 
+    display: none;  /*For making the scrollbar invisible*/
+}
+
+
+div.notification-bar-mobile{
+	width:217px;
+	height:10px;
+	border:2px solid #F5F5F5;
+	background-color:#F5F5F5;
+    padding-top:3px;
+	position:absolute;
+    
+}
+
+div.chatbox-mobile{
+	width:15vw;
+	height:5vh;
+    border-radius:30px;	
+	text-align:center;
+	font-size:12px;
+	font-family:Roboto;
+	font-style:normal;
+	color:#FFF;	
+	margin:0;
+	padding:0;
+}
+
+div.chatbox-mobile.one{	
+	border:1px solid #673AB7;
+	background-color:#673AB7;		
+	margin:140px 0 0 45px; 	
+}
+
+
+div.chatbox-mobile.two{
+	border:1px solid #00BCD4;
+	background-color:#00BCD4;	
+    margin:20px 10px 0 8px; 
+}
+
+div.chatbox-mobile.three{
+	border:1px solid #673AB7;
+	background-color:#673AB7;	
+	margin:20px 0 0 45px;
+}
+
+div.chatbox-mobile.four{
+	border:1px solid #00BCD4;
+	background-color:#00BCD4;
+    margin:20px 10px 0 8px;	
+}
+
+
+div.chatbox-mobile.five{
+	border:1px solid #673AB7;
+	background-color:#673AB7;	
+	margin:20px 0 0 45px;
+}
+
+div.chatbox-mobile.six{
+	border:1px solid #00BCD4;
+	background-color:#00BCD4;	
+	margin:20px 10px 50px 8px;
+}
+
+
+div.type-box-mobile{
+	width:217px;
+	height:18px;
+	border:1px solid #E0E0E0;
+	background-color:#FFF;
+    padding-top:3px;	
+	border-radius:30px;
+	margin:0 0 0 0;	
+	position:absolute;
+	top:360px;	
+}
+
+.material-icons.arrow-mobile{
+margin:20px 0 0 10px;	
+font-size:20px;
+color:#424242;
+position:absolute;
+}
+
+.material-icons.account-mobile{
+margin:20px 0 0 180px;	
+font-size:35px;
+color:#757575;
+position:absolute;
+}
+
+.material-icons.emoticon-mobile{ 
+font-size:18px;
+color: rgba(0, 0, 0, 0.26); 
+margin-left:170px;
+}
+.material-icons.send-mobile{
+font-size:18px;
+color:#0097A7;	
+margin-left:5px;
+}
+
+
+/*------------------For Tablet----------------------------*/
+
+
+div.outer-block-tablet{
+    width:52vw;
+	height:75vh;
+	border:2px solid #00BFFF;
+	margin:0px auto 30px auto;
+	border-radius:30px;
+    position:relative;
+	top:40px;	
+}
+
+div.speaker-tablet{
+	width:100px;
+	height:5px;
+	border:2px solid #00BFFF;
+	border-radius:20px;
+	background-color:#00BFFF;	
+	margin:0 auto;
+    position:relative;
+}
+
+div.up{
+    top:8px;	
+}
+
+div.inner-block-tablet{
+    width:47vw;
+	height:65vh;
+	border:2px solid #00BFFF;
+    margin:17px auto 0px auto;
+    background-image:url("allo.gif");
+	overflow-y:auto;
+	overflow-x:hidden;
+}	
+
+.inner-block-tablet::-webkit-scrollbar { 
+    display: none;  /*For making the scrollbar invisible*/
+}
+
+
+div.notification-bar-tablet{
+	width:46.7vw;
+	height:3vh;
+	border:2px solid #F5F5F5;
+	background-color:#F5F5F5;
+    padding-top:3px;
+    position:absolute;	
+}
+
+div.chat-box{
+	width:20vw;
+	height:7vh;
+    border-radius:30px;	
+	text-align:center;
+	font-size:12px;
+	font-family:Roboto;
+	color:#FFF;	
+	margin:0;
+	padding:0;
+}
+
+div.a{	
+	border:1px solid #673AB7;
+	background-color:#673AB7;		
+	margin:110px 0 0 240px;
+}
+
+
+div.b{
+	border:1px solid #00BCD4;
+	background-color:#00BCD4;	
+	margin:30px 240px 0 0;	
+}
+
+div.c{
+	border:1px solid #673AB7;
+	background-color:#673AB7;	
+	margin:30px 0 0 240px;
+}
+
+div.d{
+	border:1px solid #00BCD4;
+	background-color:#00BCD4;	
+	margin:30px 240px 0 0;
+}
+
+div.e{
+	border:1px solid #673AB7;
+	background-color:#673AB7;	
+	margin:30px 0 0 240px;
+}
+
+div.f{
+	border:1px solid #00BCD4;
+	background-color:#00BCD4;	
+	margin:30px 240px 40px 0;
+}
+
+
+div.type-box-tablet{
+	width:44vw;
+	height:5vh;
+	border:1px solid #E0E0E0;
+	background-color:#FFF;
+    padding-top:3px;	
+	border-radius:30px;
+	margin:0px 0px 0px 10px;
+	position:absolute;
+	top:64vh;
+	top:295px; 
+}
+
+.material-icons.arrow-tablet{
+margin:20px 0 0 10px;	
+font-size:20px;
+color:#424242;
+position:absolute;
+}
+
+.material-icons.account-tablet{
+margin:20px 0 0 400px;	
+font-size:35px;
+color:#757575;
+position:absolute;
+}
+
+.material-icons.emoticon-tablet{ 
+font-size:18px;
+color: rgba(0, 0, 0, 0.26); 
+margin-left:380px;
+}
+.material-icons.send-tablet{
+font-size:18px;
+color:#0097A7;	
+margin-left:5px;
+}
+
